@@ -1,3 +1,5 @@
+line-bot-sdk=3.7
+flask=3.0.0
 blinker==1.9.0
 click==8.1.7
 colorama==0.4.6
@@ -8,3 +10,4 @@ Jinja2==3.1.4
 MarkupSafe==3.0.2
 packaging==24.2
 Werkzeug==3.1.3
+
