@@ -15,7 +15,7 @@ service = build('drive', 'v3', credentials=creds)
 
 
 # 使用 Firebase 控制台下載的服務憑證 JSON 檔案
-cred = credentials.Certificate("path/to/your/serviceAccountKey.json")
+cred = credentials.Certificate("firebase_credentials.json")
 firebase_admin.initialize_app(cred)
 
 # 建立 Firestore 客戶端
